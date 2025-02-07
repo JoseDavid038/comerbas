@@ -99,7 +99,7 @@ const sr = ScrollReveal({
   distance: '100px',
   duration: 2500,
   delay: 400,
-//  reset: true, // Animation repeat
+  reset: true, // Animation repeat
 })
 
 sr.reveal(`.home__content , .services__data, .services__swiper , .footer__container`);

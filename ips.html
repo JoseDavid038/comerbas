@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <!-- Remix icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    referrerpolicy="no-referrer" />
+  <!-- swiper css -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles_ips.css">
+
+  <title>Comerbas</title>
+
+
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav__logo">
+        <!-- icon from https://remixicon.com/icon/building-3-line -->
+        <img src="assets/img/logo.png" alt="image" class="logo">
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active-link">Inicio</a>
+          </li>
+          <li>
+            <a href="#about" class="nav__link">Quienes somos</a>
+          </li>
+          <li>
+            <a href="#services" class="nav__link">Nuestros Beneficios</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav__link">Examenes</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav__link button">Contactanos</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-large-line"></i>
+
+        </div>
+
+      </div>
+
+      <!-- toggle menu -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-apps-2-line"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- main -->
+  <main class="main">
+    <!-- home -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__data">
+            <h1 class="home__title">
+              Un Aliado Experto en<br>
+              Salud Ocupacional  
+            </h1>
+
+            <p class="home__description">
+              En nuestra IPS, tus colaboradores recibirán atención especializada en exámenes médicos
+              laborales, fisiometría, audiometría, y más.
+            </p>
+
+            <div class="home__buttons">
+              <a href="#services" class="button">Nuestros Servicios</a>
+              <a href="#projects" class="button__link">
+                <span>Intranet</span>
+                <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">10+</h3>
+              <p class="home__info-description">Empresas <br> Vinculadas</p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">200</h3>
+              <p class="home__info-description">Trabajadores <br> Afiliados</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="home__images">
+          <img src="assets/img_ips/home-img-1.png" alt="image" class="home__img-1">
+          <img src="assets/img_ips/home-img-2.jpg" alt="image" class="home__img-2">
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <span class="section__subtitle">Nuestra IPS</span>
+          <h2 class="section__title">
+            Somos un Aporte Tangible  <br> en sus Procesos de Selección
+          </h2>
+
+          <p class="about__description">
+            Nuestro objetivo es identificar los riesgos laborales asociados
+            a las labores y ocupaciones y medir la aptitud de las personas
+            para desempeñarse en los puestos de trabajo.
+          </p>
+
+          <ul class="about__list grid">
+            <li class="about__list-item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Optometría Laboral</span>
+            </li>
+
+            <li class="about__list-item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Psicología Laboral</span>
+            </li>
+
+            <li class="about__list-item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Test Auditivo</span>
+            </li>
+
+            <li class="about__list-item">
+              <i class="ri-checkbox-circle-line"></i>
+              <span>Certificados Psicosensométricos</span>
+            </li>
+          </ul>
+
+          <a href="" class="button">Visita Nuestra IPS</a>
+        </div>
+        <div class="about__images">
+          <img src="assets/img_ips/about-img-1.jpg" alt="image" class="about__img-1">
+          <img src="assets/img_ips/about-img-2.png" alt="image" class="about__img-2">
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section class="services section" id="services">
+      <div class="services__container container grid">
+        <div class="services__data">
+          <div>
+            <span class="section__subtitle">Nuestros Beneficios</span>
+            <h2 class="section__title">Alta Calidad en <br> Salud Ocupacional</h2>
+          </div>
+
+          <p class="services__description">
+            Atención integral con estándares de excelencia, tecnología avanzada y profesionales 
+            especializados, asegurando la tranquilidad de tu empresa.
+          </p>
+
+          <a href="#contact" class="button">Contactanos</a>
+        </div>
+
+        <div class="services__swiper swiper">
+          <div class="swiper-wrapper">
+            <article class="services__card swiper-slide"><!--swiper-slide-->
+              <div class="services__icon">
+                <i class="ri-building-line"></i>
+              </div>
+
+              <h3 class="services__title">Atención Médica  <br> Integral</h3>
+
+              <p>
+                Brindamos servicios especializados en medicina laboral con tecnología avanzada y 
+                profesionales altamente capacitados para el bienestar de tus empleados.
+              </p>
+            </article>
+
+            <article class="services__card swiper-slide">
+              <div class="services__icon">
+                <i class="ri-home-office-line"></i>
+              </div>
+
+              <h3 class="services__title">Exámenes Médicos <br> Ocupacionales</h3>
+
+              <p>
+                Realizamos exámenes médicos laborales, audiometría, fisiometría y evaluaciones 
+                psicocensométricas, asegurando la salud de tu equipo de trabajo.
+              </p>
+            </article>
+
+            <article class="services__card swiper-slide">
+              <div class="services__icon">
+                <i class="ri-tools-line"></i>
+              </div>
+
+              <h3 class="services__title">Certificados de Aptitud <br> Psicofísica</h3>
+
+              <p>
+                Expedimos el certificado de aptitud psicofísica para porte y tenencia de armas de fuego, 
+                cumpliendo con los requisitos legales.
+              </p>
+            </article>
+
+            <article class="services__card swiper-slide">
+              <div class="services__icon">
+                <i class="ri-box-3-line"></i>
+              </div>
+
+              <h3 class="services__title">Protección <br> Exequial</h3>
+
+              <p>
+                Tus empleados podran asegurar la tranquilidad de su familia con nuestro plan exequial. ¡Su mascota tambien esta protegida!
+              </p>
+            </article>
+
+            <article class="services__card swiper-slide">
+              <div class="services__icon">
+                <i class="ri-drop-line"></i>
+              </div>
+
+              <h3 class="services__title">Nuestra <br> IPS</h3>
+
+              <p>
+                En nuestra IPS, tus colaboradores recibirán atención especializada
+                en exámenes médicos laborales, fisiometría, audiometría, y más.
+              </p>
+            </article>
+
+          </div>
+        </div>
+        <!-- navigation buttons -->
+        <div class="swiper-button-prev">
+          <i class="ri-arrow-left-line"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="ri-arrow-right-line"></i>
+        </div>
+
+
+      </div>
+
+
+      <div class="services__shape"></div>
+    </section>
+
+
+    <!-- projects -->
+    <section class="projects section" id="projects">
+
+      <span class="section__subtitle">Nuestros Servicios</span>
+      <h2 class="section__title">Exámenes Medicos <br> Especializados</h2>
+
+      <div class="projects__container container grid">
+        <article class="projects__card">
+          <img src="assets/img_ips/projects-img-1.jpg" alt="image" class="projects__img">
+
+          <div class="projects__data">
+            <span>Certificados</span>
+            <h2 class="projects__title">Examenes para Porte y Tenencia.</h2>
+
+            <p>
+              Certificado de aptitud psicofisica para porte y tenencia de armas de fuego.
+            </p>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <img src="assets/img_ips/projects-img-2.png" alt="image" class="projects__img">
+
+          <div class="projects__data">
+            <span>Psicología</span>
+            <h2 class="projects__title">Riesgos Bio-psicosociales</h2>
+
+            <p>
+              Pruebas periodicas programadas para medir niveles de estress en funcionarios activos.
+            </p>
+          </div>
+        </article>
+
+        <article class="projects__card">
+          <img src="assets/img_ips/projects-img-3.png" alt="image" class="projects__img">
+
+          <div class="projects__data">
+            <span>Test</span>
+            <h2 class="projects__title">Audiometría Tonal</h2>
+
+            <p>
+              Mide agudeza auditiva en función de las frecuencias del espectro audible.
+            </p>
+          </div>
+        </article>
+      </div>
+
+    </section>
+    <!-- contact -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <span class="section__subtitle">CONTACTANOS</span>
+        <h2 class="section__title">Escribenos</h2>
+
+        <div class="contact__container grid">
+          <img src="assets/img/contact-img.webp" alt="image" class="contact__img">
+
+          <div class="contact__data grid">
+            <div class="contact__card">
+              <div class="contact__icon">
+                <i class="ri-map-pin-2-line"></i>
+              </div>
+
+              <h3 class="contact__title">Nuestra Ubicación</h3>
+              <address class="contact__info">
+                Av. Cra. 30 No. 67 - 59 <br>
+                Costado Occidental
+              </address>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__icon">
+                <i class="ri-phone-line"></i>
+              </div>
+
+              <h3 class="contact__title">Llamanos:</h3>
+              <address class="contact__info">
+                PBX: (1) 4437750 <br>
+                
+              </address>
+            </div>
+
+            <div class="contact__card">
+              <div class="contact__icon">
+                <i class="ri-message-3-line"></i>
+              </div>
+
+              <h3 class="contact__title">Chatea con Nosotros</h3>
+              <div class="contact__social">
+                <a href="https://api.whatsapp.com/send?phone=3102569291&text=Hello, more information!" target="_blank"
+                  class="contact__social-link">
+                  <i class="ri-whatsapp-line"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jose-david-gonzalez-dw/" target="_blank"
+                  class="contact__social-link">
+                  <i class="ri-linkedin-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/josedavid_038/" target="_blank" class="contact__social-link">
+                  <i class="ri-instagram-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer">
+
+    <div class="footer__container container grid">
+
+      <div>
+        <a href="" class="footer__logo">
+          <img src="assets/img/logo3.png" alt="image" class="logo">
+        </a>
+
+        <p class="footer__description">Un aliado experto en bienestar  <br> empresarial y salud ocupacional</p>
+
+        <address class="footer__email">Email: info@comerbas.com</address>
+      </div>
+
+      <div class="footer__content grid">
+          <div>
+            <h3 class="footer__title">Inicio</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#about" class="footer__link">Nosotros</a>
+              </li>
+
+              <li>
+                <a href="#services" class="footer__link">Servicios</a>
+              </li>
+
+              <li>
+                <a href="#projects" class="footer__link">Ips Ocupacional</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Ubicación</h3>
+
+            <ul class="footer__list">
+              <li>
+                <address class="footer__info">Av. Cra. 30 No. 67 - 59 <br>  Costado Occidental</address>
+              </li>
+
+              <!-- <li>
+                <address class="footer__info">9AM - 11PM</address>
+              </li> -->
+
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Redes Sociales</h3>
+
+            <div class="footer__social">
+
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                <i class="ri-twitter-x-line"></i>
+              </a>
+
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+      <span class="footer__copy">
+
+      </span>
+        &#169; Todos los derechos reservados Comerbas sas
+  </footer>
+
+  <!-- Scroll up -->
+
+  <a href="#" class="scrollup" id="scrollup">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+
+
+  <!-- scroll reveal -->
+  <script src="js/scrollreveal.min.js"></script>
+
+  <!-- swiper js -->
+  <script src="js/swiper-bundle.min.js"></script>
+
+  <!-- main js -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
