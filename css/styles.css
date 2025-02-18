@@ -110,7 +110,7 @@ img {
 
 .grid {
   display: grid;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .section {
   padding-block: 5rem 1rem;
@@ -161,7 +161,7 @@ img {
 }
 
 .logo{
-  width: 200px;
+  width: 190px;
 }
 
 .nav__logo{
@@ -251,6 +251,12 @@ img {
   font-weight: var(--font-semi-bold);
   padding: 1rem 2rem;
   transition: box-shadow .4s;
+}
+
+.button-credit{
+  background-color: #7E3F8E;
+  text-align: center;
+  padding: 1rem 0.5rem;
 }
 
 .button:hover{
@@ -1116,6 +1122,7 @@ img {
     height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
+    cursor: pointer;
   }
 
   .box-services{
