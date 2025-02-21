@@ -584,8 +584,10 @@ img {
   justify-self: center;
 }
 
+
 .contact__data{
-  grid-template-columns: 230px;
+  display: flex;
+  /* grid-template-columns: 230px; */
   justify-content: center;
   row-gap: 1.5rem;
 }
@@ -1123,6 +1125,7 @@ img {
     height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
+    border-radius: 10px;
     cursor: pointer;
   }
 
